@@ -1,0 +1,60 @@
+body{
+
+    background-color: rgb(50, 50, 50);
+    
+  }
+  @media (min-width: 480px){
+    body{
+      background-color: rgb(255, 255, 255);
+      
+    }
+  }
+  
+  @media (min-width: 768px){
+    body{
+        background-color: rgb(255, 255, 255);
+  
+    }
+  }
+  
+
+  .navegacion-principal{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 25px;
+
+  }
+  .contenedor{
+    /*
+    margin: 120rem;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;*/
+    margin: 0 auto;
+  }
+  .nav-bg{
+    background-color: rgb(181, 13, 13);
+  
+  }
+  .navegacion-principal a{
+    text-decoration: none;
+    color: rgb(254, 252, 252) ;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1rem;
+  }
+  .navegacion-principal a:hover{
+    background-color: rgb(12, 14, 14);
+    color:rgb(231, 23, 23);
+  }
+  
+  h2,h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  p{
+    font-size: 18px;
+
+  }
